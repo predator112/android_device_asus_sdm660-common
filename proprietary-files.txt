@@ -462,7 +462,6 @@ vendor/bin/ATFWD-daemon
 vendor/bin/hw/qcrild
 vendor/bin/netmgrd
 vendor/bin/port-bridge
-vendor/bin/qrtr-ns
 vendor/bin/qti
 vendor/bin/rmt_storage
 vendor/bin/tftp_server
@@ -521,7 +520,12 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.1.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
-# Radio - IMS
+# Radio-Qrtr
+vendor/bin/qrtr-cfg
+vendor/bin/qrtr-lookup
+vendor/bin/qrtr-ns
+
+# Radio-IMS
 -product/app/imssettings/imssettings.apk
 -product/app/uceShimService/uceShimService.apk
 product/lib64/lib-imscamera.so
