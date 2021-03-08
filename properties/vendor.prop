@@ -169,3 +169,9 @@ ro.zram.periodic_wb_delay_hours=24
 # Lmk
 ro.config.low_ram = false
 ro.lmk.log_stats = true
+
+# Blur
+ro.sf.blurs_are_expensive=1 
+ro.surface_flinger.supports_background_blur=1
+debug.sf.latch_unsignaled=0 
+debug.sf.disable_backpressure=1
