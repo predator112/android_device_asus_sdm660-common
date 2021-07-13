@@ -155,27 +155,6 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     qcom.fmradio.xml
 
-# GPS
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@2.0-impl-qti \
-    android.hardware.gnss@2.0-service-qti \
-    libbatching \
-    libgeofencing \
-    libgnss \
-    libgps.utils \
-    liblocation_api \
-    libsensorndkbridge \
-    libwifi-hal-ctrl
-
-PRODUCT_PACKAGES += \
-    apdr.conf \
-    gps.conf \
-    flp.conf \
-    izat.conf \
-    lowi.conf \
-    sap.conf \
-    xtwifi.conf
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
