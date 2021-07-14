@@ -258,6 +258,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
 
+# NVRAM
+PRODUCT_PACKAGES += \
+    nvram_btwifi.rc
+
 # OMX
 PRODUCT_PACKAGES += \
     libc2dcolorconvert \
